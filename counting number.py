@@ -1,0 +1,7 @@
+print("COUNTING")
+a=int(input("enter the value :"))
+count=0
+while a>0:
+    a=a//10
+    count=count+1
+print(count)
